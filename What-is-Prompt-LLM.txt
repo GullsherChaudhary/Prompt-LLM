@@ -1,0 +1,27 @@
+What is Prompt Engineering & LLM?
+
+Here as we know the advancement of deep learning & how it help human to resolve there problems by getting information for internet i-e: Chatgpt, Gemini etc.
+
+Before learning about prompt engineering let see LLM (Large Language Models). There are 2 types of LLM.
+
+1. Base LLM
+	In this case, work on predicting next word base on training data. For example, "Once upon a time, there was a unicorn" so next prediction
+might be "that lived in a magical forest with all her unicorn friends". So here is how it works. it cannot answer the questions like "what is capital of country"
+so it will generate like "what is france large city", what is france currency".
+
+2. Instruction Tuned LLM
+	In this case, it work on instructions like answering the given question or problem. For example, "What is capital of france?" it will response like that
+"The capital of france is paris".
+
+
+LLMs are trained on huge amount of text data & further train with the input. In other words, it works on reinforcement learning as learn on feedback provided.
+
+
+So, What are guidelines for prompting the results you want to get?
+
+Here some guidelines & 2 principles.
+
+1. Write clear & specific instructions
+2. give the model time to think
+
+How prompt engineering is working see promt-llm.ipynb for details & setup.
